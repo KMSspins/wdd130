@@ -79,7 +79,7 @@ main section {
 }
 
 .msg h2 {
-    color: black;
+    color: white;
 }
 
 .msg p {
@@ -87,7 +87,7 @@ main section {
 }
 
 .join {
-    background-color: #5c9a89;
+    background-color: black;
     color: white;
     text-decoration: none;
 }
