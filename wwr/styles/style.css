@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Inter&display=swap');
+
+
 body {
     background-color: #ebdbc1;
+    font-family: Inter, Futura, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 #content {
@@ -11,6 +18,10 @@ header {
     background-color: #ebdbc1;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .logo {
     width: 80px;
 }
@@ -19,12 +30,17 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #5c9a89;
     color: white;
 }
+
+#hero {}
+
+#hero-box {}
 
 #hero-img {
     width: 100%;
@@ -35,7 +51,10 @@ nav a:hover {
 }
 
 .home-title {
-    color: #ebdbc1;
+    color: #003a72;
+    font-family: 'Covered By Your Grace', Papyrus, san-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -54,6 +73,10 @@ h4 {
     background-color: #5c9a89;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -61,12 +84,35 @@ h4 {
     color: #003a72;
 }
 
+.home-grid {}
+
 main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #003a72;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #background {
@@ -76,20 +122,34 @@ main section {
 
 .msg {
     background-color: #8c1010;
+    list-style: none;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg h2 {
     color: white;
+    font-family: 'Covered By Your Grace', Papyrus, san-serif;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .join {
     background-color: black;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -100,6 +160,12 @@ main section {
 footer {
     background-color: #ebdbc1;
     color: #003a72;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer p {
+    font-size: 1.2em;
 }
 
 footer a {
@@ -107,14 +173,14 @@ footer a {
     text-decoration: none;
 }
 
+footer p a:hover {
+    text-decoration: underline;
+}
+
 footer a:hover {
     color: #8c1010;
 }
 
-footer p {
-    font-size: 1.2em;
-}
-
-footer p a:hover {
-    text-decoration: underline;
+footer .social img {
+    padding-top: 15px;
 }
