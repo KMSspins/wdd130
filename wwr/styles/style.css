@@ -237,30 +237,78 @@ footer .social img {
 }
 
 /*FAQ CSS comes after this comment*/
-/*<i class="fa-light fa-duck"></i>*/
+
 
 #faq {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
 }
 
-#faqbox {
+#faq-box {
     grid-column: 1/4;
+    grid-row: 1/1;
+    z-index: -1;
 }
 
-.faqpic {}
+.faq-pic {
+    width: 100%;
+}
 
-#faqmsg {
+#faq-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 10px;
     color: #8c1010;
     font-family: "Covered By Your Grace";
-    font-size: 3em;
+    font-size: 8em;
+    text-align: center;
 }
 
-#questions {}
+.questions-box {
+    font-family: Inter, Futura, serif;
+    grid-column: 1/4;
+    padding: 40px;
+}
 
 ul {
-    /*list-style-image: ;*/
+    background-color: #ebdbc1;
+    color: #8c1010;
+    font-weight: bolder;
 }
+
+.questions-box p {
+    background-color: #ebdbc1;
+    color: black;
+    font-size: 1em;
+}
+
+#list {
+    grid-column: 1/4;
+    padding: 40px;
+    margin-bottom: -150px;
+}
+
+#list h3 {
+    font-family: Covered By Your Grace;
+    font-size: 3em;
+    font-weight: bolder;
+    color: black;
+}
+
+#list p {
+    background-color: #5c9a89;
+    font-family: Covered By Your Grace;
+    font-size: 1.5em;
+    color: white;
+}
+
+# list ul {
+    background-color: #5c9a89;
+    color: black;
+    font: 1em;
+}
+
 
 
 
