@@ -236,6 +236,33 @@ footer .social img {
     padding-top: 15px;
 }
 
+/*FAQ CSS comes after this comment*/
+/*<i class="fa-light fa-duck"></i>*/
+
+#faq {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#faqbox {
+    grid-column: 1/4;
+}
+
+.faqpic {}
+
+#faqmsg {
+    color: #8c1010;
+    font-family: "Covered By Your Grace";
+    font-size: 3em;
+}
+
+#questions {}
+
+ul {
+    /*list-style-image: ;*/
+}
+
+
 
 @media screen and (max-width: 900px) {
 
