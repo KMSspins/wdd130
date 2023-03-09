@@ -283,7 +283,7 @@ footer .social img {
 .questions-box {
     font-family: Inter, Futura, serif;
     grid-column: 1/4;
-    padding: 40px;
+    padding: 30px;
 }
 
 ul {
@@ -300,7 +300,7 @@ ul {
 
 #list {
     grid-column: 1/4;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: -150px;
 }
 
