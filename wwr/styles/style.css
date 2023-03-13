@@ -205,58 +205,13 @@ main section img {
     color: #003a72;
 }
 
-footer {
-    background-color: #ebdbc1;
-    color: black;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-footer p {
-    font-size: 1.2em;
-}
-
-footer a {
-    color: black;
-    text-decoration: none;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
-
-footer a:hover {
-    color: #8c1010;
-}
-
-footer .social img {
-    padding-top: 15px;
-}
 
 /*FAQ CSS comes after this comment*/
 
-#feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;
-}
-
-.moveDown {
-    margin-top: 3em;
-}
-
-
 #faq {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: -100px;
 }
 
@@ -271,57 +226,58 @@ footer .social img {
 }
 
 #faq-msg {
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 1/2;
-    margin-top: 10px;
+    margin: 400px 0px -200px 50px;
     color: #8c1010;
     font-family: "Covered By Your Grace";
     font-size: 8em;
-    text-align: center;
 }
 
 .questions-box {
+    background-color: #ebdbc1;
     font-family: Inter, Futura, serif;
     grid-column: 1/4;
-    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px 50px 0px 50px;
 }
 
-ul {
-    background-color: #ebdbc1;
+.questions-box h5 {
     color: #8c1010;
     font-weight: bolder;
-}
-
-.questions-box p {
-    background-color: #ebdbc1;
-    color: black;
     font-size: 1em;
 }
 
-#list {
-    grid-column: 1/4;
-    padding: 30px;
-    margin-bottom: -150px;
+.questions-box p {
+    color: black;
+    font-size: .95em;
 }
 
-#list h3 {
-    font-family: Covered By Your Grace;
+.list-box {
+    grid-column: 1/4;
+    margin: 0px 50px -150px 50px;
+}
+
+.list-box h3 {
+    font-family: 'Covered By Your Grace';
     font-size: 3em;
     font-weight: bolder;
     color: black;
+    text-align: center;
 }
 
-#list p {
+.list-box p {
     background-color: #5c9a89;
-    font-family: Covered By Your Grace;
     font-size: 1.5em;
     color: white;
+    text-align: center;
 }
 
-# list ul {
-    background-color: #5c9a89;
+.list-box ol {
+    background-color: #ebdbc1;
     color: black;
-    font: 1em;
+    font: .75em;
 }
 
 /*/contact us CSS comes after this*/
@@ -337,7 +293,7 @@ form {
 }
 
 ul {
-    /*list-style: none;*/
+    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -392,6 +348,39 @@ button {
        between the labels and their text fields */
     margin-left: 0.5em;
 }
+
+footer {
+    grid-column: 1/4;
+    background-color: #ebdbc1;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #8c1010;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
 
 
 @media screen and (max-width: 900px) {
