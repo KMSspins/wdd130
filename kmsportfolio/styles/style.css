@@ -121,7 +121,7 @@ footer {
     font-size: 50px;
     text-decoration: none;
     justify-items: center;
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .social a:hover {
