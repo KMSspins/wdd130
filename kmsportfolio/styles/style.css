@@ -51,8 +51,8 @@ nav a:hover {
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #hero-box {
@@ -73,6 +73,7 @@ nav a:hover {
     place-self: end end;
     padding-right: 50px;
     margin-bottom: 0;
+
 }
 
 
@@ -82,13 +83,20 @@ nav a:hover {
     width: 75%;
     align-self: baseline;
     border-radius: 50%;
+    box-shadow: 5px 10px 5px #E8B528;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 #hero p {
-    padding-right: 20px;
+    padding: 20px;
     grid-column: 6/8;
     grid-row: 1/2;
     color: black;
+    background-color: whitesmoke;
+    margin: 5px;
+    box-shadow: 5px 5px 5px #E8B528 inset;
+
 }
 
 footer {
