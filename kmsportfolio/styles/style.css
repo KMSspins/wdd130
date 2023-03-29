@@ -193,33 +193,6 @@ nav a:hover {
     display: none;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -293,6 +266,147 @@ nav a:hover {
 #web-msg3 h4 {
     font-size: 20px;
     font-weight: bolder;
+    text-align: center;
+}
+
+/* Qualifications page begins here*/
+
+#res_hero_box {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 20px 20px 20px 20px;
+}
+
+#res_msg_box {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    width: auto;
+    border: solid black 2px;
+    padding: 50px;
+    margin: 30px;
+    box-shadow: 10px 10px 5px 5px #BCBCBE;
+}
+
+#heading h1 {
+    text-align: center;
+    font-family: 'Lobster Two';
+}
+
+#heading p {
+    font-family: Lato;
+    font-size: .75em;
+    text-align: center;
+}
+
+#res_msg_box h4 {
+    font-family: Lato;
+    font-size: .90em;
+    text-align: center;
+}
+
+#work h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#work h3 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 100;
+}
+
+#work h4 {
+    text-align: left;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+#work p {
+    text-align: left;
+}
+
+#skills h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+#skills h3 {
+    text-align: left;
+    font-size: .90em;
+}
+
+#qual_images {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    margin-top: 10px;
+}
+
+.one {
+    margin-bottom: 120px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #E8B528;
+}
+
+.two {
+    box-shadow: 5px 5px 5px #E8B528;
+}
+
+.three {
+    margin-top: 115px;
+    box-shadow: 5px 5px 5px #E8B528;
+    margin-bottom: 17px;
+}
+
+
+#qual_msg_box {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    padding: 20px;
+    margin: 10px;
+    align-self: center;
+}
+
+#ed-box h3 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lobster Two';
+    color: #71842A;
+}
+
+#ed-box ul {
+    font-size: 1em;
+    text-align: left;
+}
+
+hr {
+    color: #71842A
+}
+
+#lang-box h3 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lobster Two';
+    color: #71842A;
+}
+
+#lang-box ul {
+    font-size: 1em;
+    text-align: left;
+}
+
+#ref-box h3 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lobster Two';
+    color: #71842A;
+}
+
+#ref-box p {
+    font-size: 1em;
     text-align: center;
 }
 
